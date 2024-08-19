@@ -11,3 +11,17 @@ C# ın tten yemişi gibi pythondan sonra biraz zor gelicek.
 ---------------
 Küçük-Büyük harf duyarlılığı var.
 
+
+
+VARİABLES//
+public class Main {
+ //reusability : tekrar rekrar kullan demek kardeşim
+    public static void main(String[] args) {
+        String mesaj = "Ogrenci sayisi: ";
+        int sayi = 10;
+        System.out.println(mesaj + sayi);
+    }
+}
+
+Moruq büyük küçük harf olayı biraz sıkıntı ama tek derdin bu olsun aq;
+Her zamanki syntax şu anda farklı bir şey yok temel işler değişkeni belirle topla çıkart ruby gibi;
