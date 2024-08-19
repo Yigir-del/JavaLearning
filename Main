@@ -10,7 +10,4 @@ C# ın tten yemişi gibi pythondan sonra biraz zor gelicek.
 Öğrendiklerim
 ---------------
 Küçük-Büyük harf duyarlılığı var.
-Ama ";" ile bittiği için kod parçaları istediğimiz kadar satıra yaymakta özgürüz. Mesela şöyle
-                                                                                                   System.
-                                                                                                        out.println("merhaba
-                                                                                                                          java");
+
