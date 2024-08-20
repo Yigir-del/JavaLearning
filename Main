@@ -25,3 +25,34 @@ public class Main {
 
 Moruq büyük küçük harf olayı biraz sıkıntı ama tek derdin bu olsun aq;
 Her zamanki syntax şu anda farklı bir şey yok temel işler değişkeni belirle topla çıkart ruby gibi;
+CHAR DOUBLE falan bunda da var ama ben artık tekrar tekrar onları yazmaktan yoruldum;
+
+CONDITIONALS//
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        int sayi = 19;
+        if (sayi < 20){
+            System.out.println("Sayi 20 den kucuktur");
+        }
+        else if(sayi > 15){
+            System.out.println("Sayi 15 ten büyük");
+        }
+        if (sayi >= 10){
+            System.out.println("Sayi 10 dan buyuktur");
+        }
+        else {
+            System.out.println("Hicbir if e  giremesse ben calisicam");
+        }
+    }
+}
+
+
+Aylardır bir şeyler kodluyorum bunu yeni öğrendim.
+Peş peşe if kullanabiliriz veya else if ile devam edebiliriz if ten sonra ben if ve else if in aynı anlama geldiğini düşünüyorudum
+oysa eğer  peşpeşe if koyarsak her if eğer sağlanıyorsa çalışır.
+Eğer if ten sonra else if koyarsak  ilk if çalışınca else if veya else artık çalışamaz.
+
+Java > python
