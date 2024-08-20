@@ -76,3 +76,32 @@ public class Main {
 }
 
 
+Switch hayatımın hiçbir döneminde kullanmadığım bir şey ama güzel yani isteyen kullansın;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        char grade = 'A';
+
+        switch (grade) {
+            case 'A':
+                System.out.println("Mükemmel : Geçtiniz");
+                break;
+            case 'B':
+                System.out.println("Çok güzel : Geçtiniz");
+                break;
+            case 'C':
+                System.out.println("Iyi : Geçtiniz");
+                break;
+            case 'D':
+            case 'F':
+                System.out.println("Malesef : Kaldiniz");
+                break;
+            default:
+                System.out.println("Geçersiz not girdiniz");
+        }
+    }
+}
+
+
