@@ -56,3 +56,23 @@ oysa eğer  peşpeşe if koyarsak her if eğer sağlanıyorsa çalışır.
 Eğer if ten sonra else if koyarsak  ilk if çalışınca else if veya else artık çalışamaz.
 
 Java > python
+
+
+En büyüğü söyleyen if bloğu ulan zekice yazdım he
+public class Main {
+
+    public static void main(String[] args) {
+
+        int s1 = 50,s2 = 40,s3 = 30;
+
+        if (s1 > s2 && s1 > s3){
+            System.out.println("S1 en büyük");
+        } else if(s2 > s3){
+            System.out.println("S2 en büyük");
+        } else{
+            System.out.println("S3 en büyük");
+        }
+    }
+}
+
+
