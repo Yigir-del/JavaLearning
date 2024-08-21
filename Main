@@ -105,3 +105,49 @@ public class Main {
 }
 
 
+LOOP//
+For döngüsü iyidir hoştur çokta bi olayı yok her zamanki syntax.
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        for (int i = 1;i<10;i++){
+            System.out.println(i);
+        }
+        System.out.println("Döngü bitti");
+    }
+}
+
+While döngüsü: For dan  bi farkıda yok yani.
+
+public class Main {
+
+    public static void main(String[] args) {
+        int i = 0;
+        while( i < 10){
+            System.out.println("i: " + i);
+            i+=2;
+        }
+        System.out.println("While döngüsü bitti");
+
+    }
+}
+
+
+do-while döngüsü: Bunu kimse kullanmaz bomboş bişe.
+İlk önce çalışır sonra şartı sorgular yani 1 kere şartı yok sayabilirsiniz bazı zamanlarda.
+
+public class Main {
+
+    public static void main(String[] args) {
+        int i = 0;
+        do{
+            i+=2;
+            System.out.println(i);
+
+        }while(i<10);
+    }
+}
+
+
